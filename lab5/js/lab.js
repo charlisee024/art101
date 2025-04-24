@@ -1,4 +1,4 @@
-// index.js - Lab 5 Data Types
+// index.js - Lab 5 Data Types and Variables
 // Author: Charlise Gonzales
 // Date:4/23/25
 
