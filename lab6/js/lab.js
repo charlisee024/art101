@@ -20,7 +20,7 @@ var myMainRide = {
 document.writeln("How I tend to get around: " + myTransport + "<br>");
 document.writeln("My Main Ride: <pre>", 
   JSON.stringify(myMainRide, null, '\t'), "</pre>");
-  
+
 
 
 
