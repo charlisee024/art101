@@ -1,6 +1,27 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Charlise Gonzales
+// Date:4/28/25
+
+
+let myTransport = ["car", "bicycle", "walking", "bus"]
+
+myMainRide = {
+  make: "Toyota", 
+  model: "Celica",
+  color: "Silver"
+  year: 2000
+  age: function() 
+    {return 2025 - this.year;}
+  } 
+
+//output
+document.writeln("How I tend to get around: " + myTransport + "<br>");
+document.writeln("My Main Ride: <pre>", 
+  JSON.stringify(myMainRide, null, '\t'), "</pre>"); 
+
+
+
+
 
 // Constants
 
