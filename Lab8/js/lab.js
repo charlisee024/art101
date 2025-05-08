@@ -19,7 +19,7 @@ var result = coolArray.map(squareTen);
 console.log("Test of squareTen function on array:" , result);
 
 var result = coolArray.map(function(x) {
-  return result = x + 3 * 1111;
+  return result = x + 3 * 1111; 
 })
 //should return [3336, 3337, 3338, 3339, 3342, 3345, 3353]
 console.log("Array plus 3 times 1111: ", result);
