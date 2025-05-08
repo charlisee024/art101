@@ -1,4 +1,4 @@
-// Lab 8: Functions and Callbacks
+// Lab 7: Functions and Arrays
 // Author: Charlise Gonzales
 // Date: 05/04/25
 

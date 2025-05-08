@@ -1,6 +1,32 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Charlise Gonzales
+// Date: 5/8/25
+
+function squareTen(x){
+  var results = (x * x) + 10;
+  return results;
+}
+
+//test thefunction
+console.log("What is 20 squared plus ten?", squareTen(20));
+console.log("What is 5 squared plus ten?", squareTen(5));
+
+coolArray = [3, 4, 5, 6, 9, 12, 20]
+console.log("My Cool Array: ", coolArray);
+
+var result = coolArray.map(squareTen);
+//should return [19, 26, 35, 46, 82, 154, 410]
+console.log("Test of squareTen of array:" , result);
+
+var result = coolArray.map(function(x) {
+  return result (x + 3 * 1111);
+})
+
+//should return [3336, 3337, 3338, 3339, 3342, 3345, 3353]
+console.log("Array plus 3 times 1111: ", results);
+
+
+
 
 // Constants
 
