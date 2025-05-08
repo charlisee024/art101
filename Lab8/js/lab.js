@@ -23,8 +23,7 @@ var result = coolArray.map(function(x) {
 })
 
 //should return [3336, 3337, 3338, 3339, 3342, 3345, 3353]
-console.log("Array plus 3 times 1111: ", results);
-
+console.log("Array plus 3 times 1111: ", result);
 
 
 
