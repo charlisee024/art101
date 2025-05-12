@@ -10,7 +10,7 @@
 
   /* Here we can set styles for this lab page that we don't want to effect others pages */
 
-  .special {
+.special {
     background-color: lightskyblue;
     border: dotted 50px chartreuse;
     color: plum;
