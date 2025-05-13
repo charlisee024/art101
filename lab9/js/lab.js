@@ -7,19 +7,19 @@
 // Functions
 
 // add button to challenge section
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+$("#challenge").append("<button id='button-challenge'>click!</button>");
 
 
 // add button to problems section
-$("#problems").append("<button id='button-problems'>Make Special</button>");
+$("#problems").append("<button id='button-problems'>click!</button>");
 
 
 // add button to solutions section
-$("#result").append("<button id='button-result'>Make Special</button>");
+$("#result").append("<button id='button-result'>click!</button>");
 
 
 // add button to reflection section
-$("#reflection").append("<button id='button-reflection'>Make Special</button>");
+$("#reflection").append("<button id='button-reflection'>click!</button>");
 
 
 // add a click listener to the challenge button
