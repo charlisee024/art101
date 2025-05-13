@@ -19,7 +19,7 @@ $("#result").append("<button id='button-result'>Make Special</button>");
 
 
 // add button to reflection section
-$("#reflection").append("<button id='button-result'>Make Special</button>");
+$("#reflection").append("<button id='button-reflection'>Make Special</button>");
 
 
 // add a click listener to the challenge button
