@@ -83,6 +83,13 @@ Here is the basic structure with stub or empty files in place.
 │   ├── img
 │   └── js
 │       └── lab.js
+├── lab11
+│   ├── index.html
+│   ├── css
+│   │   └── lab.css
+│   ├── img
+│   └── js
+│       └── lab.js
 └── experiments
    └── index.html
 ```
