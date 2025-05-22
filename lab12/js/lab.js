@@ -12,7 +12,7 @@
 
 // Functions
 
-function sortingHat(str){
+function sortingHat(str) {
     let length = str.length;
     let mod = length % 4;
 
