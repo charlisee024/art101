@@ -34,7 +34,7 @@ function main() {
         let name = $("#input").val();
         let house = sortingHat(name);
         $("#output").append(
-            <p>The Sorting Hat has sorted you into <strong>${house}</strong>!</p>
+            "<p>The Sorting Hat has sorted you into <strong>" + house + "</strong>!</p>"
         );
     });
 }
