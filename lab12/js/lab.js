@@ -29,8 +29,6 @@ function sortingHat(str) {
 // main function to run when page is ready
 function main() {
     console.log("Main function started.");
-
-
     // click listener for button
     $("#button").click(function() {
         let name = $("#input").val();
