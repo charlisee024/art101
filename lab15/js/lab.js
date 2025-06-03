@@ -4,7 +4,7 @@
 
 // Constants
 // Purpose: Use jQuery AJAX to fetch and display Pokémon info from the PokéAPI
-// Date: 6/2/25
+
 
 $(document).ready(function () {
     console.log("Document ready - Script loaded.");
