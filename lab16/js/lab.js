@@ -3,33 +3,29 @@
 // Date: 6/5/25
 
 
-// Using the core $.ajax() method
 $.ajax({
-    // The URL for the request (from the api docs)
-    url: "https://yourapiendpoint.com/",
-    // The data to send (will be converted to a query string)
-    data: { 
-            // here is where any data required by the api 
-            //   goes (check the api docs)
-            id: 123,
-            api_key: "blahblahblah",
-          },
-    // Whether this is a POST or GET request
+    url: "https://api.codetabs.com/v1/proxy?quest=https://xkcd.com/info.0.json",
     type: "GET",
-    // The type of data we expect back
-    dataType : "json",
-    // What do we do when the api call is successful
-    //   all the action goes in here
-    success: function(data) {
-        // do stuff
-        console.log(data);
+    dataType: "json",
+    success: function (comicObj) {
+        console.log("API success:", comicObj);
+
+        const title = $("<h3>").text(comicObj.title);
+        const image = $("<img>")
+            .attr("src", comicObj.img)
+            .attr("alt", comicObj.alt)
+            .attr("title", comicObj.alt)
+            .css("max-width", "100%");
+        const caption = $("<p>").text(comicObj.alt);
+
+        $("#output").append(title, image, caption);
     },
-    // What we do if the api call fails
-    error: function (jqXHR, textStatus, errorThrown) { 
-        // do stuff
-        console.log("Error:", textStatus, errorThrown);
+    error: function (jqXHR, textStatus, errorThrown) {
+        console.error("API call failed:", textStatus, errorThrown);
+        $("#output").text("An error occurred while fetching the comic.");
     }
-})
+});
+
 
 
 // Constants
